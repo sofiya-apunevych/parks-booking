@@ -6,12 +6,12 @@ class ProductList {
     this.productService
       .getProducts()
       .then(() => this.renderProducts())
-      .then(() => this.addEventListeners());    
+      .then(() => this.addEventListeners());
   }
   async renderProducts() {
     let productListDomString = '';
     const products = await this.productService.getProducts();
-    products.forEach(product => {
+    products.forEach((product) => {
       productListDomString += `<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
                   <div class="card product">
                     <img class="card-img-top" src="img/products/${product.image}" 
@@ -24,7 +24,7 @@ class ProductList {
                           data-target="#productInfoModal" data-id="${product.id}">Info
                         </button>
                         <button class="btn btn-primary buy" data-id="${product.id}">
-                          $${product.price} - Buy
+                          $${product.price} - Book
                         </button>
                       </div>
                     </div>
@@ -36,8 +36,8 @@ class ProductList {
   addEventListeners() {
     document
       .querySelectorAll('.product .btn-info')
-      .forEach(button =>
-        button.addEventListener('click', event =>
+      .forEach((button) =>
+        button.addEventListener('click', (event) =>
           this.handleProductInfoClick(event)
         )
       );
@@ -45,8 +45,8 @@ class ProductList {
       .querySelectorAll(
         '.card.product button.buy, #productInfoModal button.buy'
       )
-      .forEach(button =>
-        button.addEventListener('click', event =>
+      .forEach((button) =>
+        button.addEventListener('click', (event) =>
           this.handleProductBuyClick(event)
         )
       );
