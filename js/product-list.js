@@ -63,7 +63,7 @@ class ProductList {
     modal.querySelector('.modal-body .card-text').innerText =
       product.description;
     const btnBuy = modal.querySelector('button.buy');
-    btnBuy.innerText = `${product.price} - Buy`;
+    btnBuy.innerText = `${product.price} - Book`;
     btnBuy.dataset.id = id;
   }
   handleProductBuyClick(event) {
