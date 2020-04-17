@@ -1,0 +1,63 @@
+:root {
+    scroll-behavior: smooth;
+}
+
+#carouselOffers {
+    min-height: 500px;
+}
+
+#carouselOffers img {
+    max-height: 450px;
+}
+
+.intro {
+    max-width: 400px;
+    margin-top: 150px;
+    text-align: center;
+}
+.card {
+    height: 100%;
+}
+
+.alert {
+    position: fixed;
+    top: 50px; 
+    width: 50%;
+    left: 25%;
+    z-index: 1051;
+}
+
+/*park scc*/
+
+#melburn-park-part {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  visibility: hidden;
+}
+
+.more {
+  display: none;
+}
+
+.service-item.open .more {
+  display: inline;
+}
+
+.service-item.open .dots {
+  display: none;
+}
+
+
+.btn {
+    padding: 0.75rem 0.7rem;
+}
+
+
+
+.card-img-top{
+padding: 3px;
+margin:3px;
+}

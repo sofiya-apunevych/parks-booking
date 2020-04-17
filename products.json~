@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "title": "London Park",
+    "image": "park-london.jpg",
+    "description": "Book day in your dream park",
+    "price": 30
+  },
+  {
+    "id": "2",
+    "title": "Melbourne Park",
+    "image": "park-melbourne.jpg",
+    "description": "Book day in your dream park",
+    "price": 35
+  },
+  {
+    "id": "3",
+    "title": "Barcelona Park",
+    "image": "park-barcelona.jpg",
+    "description": "Book day in your dream park",
+    "price": 25
+  },
+  {
+    "id": "4",
+    "title": "San Paulo Park",
+    "image": "park-san-paulo.jpg",
+    "description": "Book day in your dream park",
+    "price": 20
+  },
+  {
+    "id": "5",
+    "title": "New York Park",
+    "image": "park-new-york.jpg",
+    "description": "Book day in your dream park",
+    "price": 25
+  },
+  {
+    "id": "6",
+    "title": "Park",
+    "image": "park-header.jpg",
+    "description": "Book day in your dream park",
+    "price": 30
+  }
+  ]
